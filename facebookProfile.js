@@ -20,6 +20,10 @@ var facebookProfile = {
         facebookProfile.messages.splice((num),1);
     },
 
-    addFriend: function(){},
-    removeFriend:function(){}
+    addFriend: function(){
+        facebookProfile.friends++;
+    },
+    removeFriend:function(){
+        facebookProfile.friends--;
+    }
 };
