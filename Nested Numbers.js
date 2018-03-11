@@ -16,12 +16,6 @@ var numbers = [
 for (r =0; r<numbers.length; r++)
 {
     for (c = 0; c<numbers[r].length; c++)
-    {
-        if (numbers[r][c] % 2 === 0){
-            numbers [r] [c] = "even";
-        }
-        else{
-            numbers[r][c] = "odd";
-        }
+        numbers[r][c] % 2 === 0 ? numbers[r][c] = "even" : numbers[r][c] = "odd" ;
     }
 }
